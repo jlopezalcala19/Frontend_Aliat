@@ -1,0 +1,47 @@
+.log{
+    background-color: #256873;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+    margin-bottom: -20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #256873;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Mabry';
+    margin-bottom: 0px;
+    margin-top: -10px;
+    padding: 5px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(241, 8, 8, 0.5);
+    border-color: rgb(173 172 172 / 73%);
+    height: 40px;
+    margin-top: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #A1B7EB;
+    background: #256873;
+}
+
+
+img.logoaliat {
+    width: 65px;
+    height: 65px;
+    margin-left: 0px;
+}
+
+img.logoaliat3 {
+    width: 240px;
+    height: 77px;
+    margin-left: -8px;
+}
+
+button.navbar-toggler {
+    margin-top: -12px;
+}

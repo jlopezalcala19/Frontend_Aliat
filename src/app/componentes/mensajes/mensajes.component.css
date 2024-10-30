@@ -1,0 +1,6 @@
+.mismensajes {
+    position: absolute;
+    right: 0px;
+    width: 32%;
+    z-index: 9999;
+}

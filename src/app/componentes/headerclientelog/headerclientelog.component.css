@@ -1,0 +1,48 @@
+.navbar-light .navbar-brand {
+    color:white;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #095119 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(96 157 78);
+    background: white;
+    font-weight: 700;
+    border-radius: 21px;
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler-icon {
+    
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(79 31 31 / 50%);
+    border-color: rgb(173 172 172 / 73%);
+    height: 40px;
+    margin-top: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(185, 138, 6);
+}
+
+
+img.logoing {
+    width: 60px;
+    height: 40px;
+    margin-left: -8px;
+}
+
+button.navbar-toggler {
+    margin-top: -12px;
+}

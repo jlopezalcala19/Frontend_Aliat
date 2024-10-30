@@ -1,0 +1,96 @@
+<app-menusuperior></app-menusuperior>
+<app-menulateral></app-menulateral>
+
+
+<div class="ventana">
+
+    <div class="clasenuevo" (click) ="nuevo()">
+        <i class="fa-solid fa-plus"></i>
+    </div>
+
+    <div class="titulo">Productos</div>
+
+    <table class="table table-dark" >
+      <thead>
+        <tr>
+          <th scope="col">CÓDIGO</th>
+          <th scope="col">NOMBRE</th>
+          <th scope="col">MARCA</th>
+          <th scope="col">REFERENCIA</th>
+          <th scope="col">DESCRIPCIÓN</th>
+          <th scope="col">IMAGEN</th>
+          <th scope="col">ACCIÓN</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor ="let item of datos">
+          <td class="align-middle">{{item.codigo}}</td>
+          <td class="align-middle">{{item.nombre}}</td>
+          <td class="align-middle">{{item.marca}}</td>
+          <td class="align-middle">{{item.referencia}}</td>
+          <td class="align-middle">{{item.descripcion}}</td>
+          <td class="align-middle"><img src="{{item.imagen}}" class="imagenesmini"></td>
+          <td class="align-middle">
+            <button type="button" class="btn btn-primary mybtn" (click)="editartabla(item.codigo)">Editar/Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="mdlNuevoRegistro" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Productos</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        
+                <div class="form-group" *ngIf="miCodigo ==''">
+                  <label for="codigo">Código</label>
+                  <input type="text" class="form-control" id="codigo" [(ngModel)]="codigo">
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" [(ngModel)]="nombre">
+                </div>
+
+                <div class="form-group">
+                  <label for="marca">Marca</label>
+                  <input type="text" class="form-control" id="marca" [(ngModel)]="marca">
+                </div>
+
+                <div class="form-group">
+                  <label for="referencia">Referencia</label>
+                  <input type="text" class="form-control" id="referencia" [(ngModel)]="referencia">
+                </div>
+
+                <div class="form-group">
+                    <label for="descripcion">Descripción</label>
+                    <input type="textarea" placeholder="Descripción" class="form-control" id="descripcion" [(ngModel)]="descripcion">
+                </div>
+
+                <div class="form-group">
+                  <label for="imagen">Imagen</label>
+                  <input type="textarea" class="form-control" id="imagen" [(ngModel)]="imagen">
+              </div>
+                
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="guardar()" *ngIf="miCodigo==''">Guardar</button>
+          <button type="button" class="btn btn-primary" (click)="actualizar()" *ngIf="miCodigo!=''">Actualizar</button>
+          <button type="button" class="btn btn-danger" (click)="eliminar()" *ngIf="miCodigo!=''">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- **********************************************************************************************************************************************************-->

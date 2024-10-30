@@ -1,0 +1,41 @@
+<app-header></app-header>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<div id="mismensajes">
+
+</div>
+
+<div  class="container-form login">
+    <div class="caja-izquierda">
+      <div class="info-iniciar">
+          <h2>Hola, ¿no estás Registrado?</h2>
+          <p>Registrate aquí para pertenecer a nuestra comunidad</p>
+          <input type="button" value="Registrarse" id="sign-up" (click)="toregistro()">
+      </div>
+    </div>
+    <div class="caja-derecha">
+      <div class="form-register">
+        <h2>Iniciar Sesión</h2>
+        <div class="icons">
+          <i class='bx bxl-google'></i>
+          <i class='bx bxl-linkedin' ></i>
+          <i class='bx bxl-facebook' ></i>
+          <i class='bx bxl-instagram-alt' ></i>
+        </div>
+        <p>Iniciar Sesión con una Cuenta</p>
+        <div>
+          <div class="input-form-register">
+            <i class='bx bx-envelope' ></i>
+            <input class="input-register" type="email" id="email" placeholder="Correo Electrónico" [(ngModel)]="email">
+          </div>
+          <div class="input-form-register">
+            <i class='bx bxs-lock-alt' ></i>
+            <input class="input-register" type="password" id="pass" placeholder="Contraseña" [(ngModel)]="password">
+          </div>
+          <input id="btniniciarsesion" type="submit" value="Iniciar Sesión" (click)="login()">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<app-footer></app-footer>
+

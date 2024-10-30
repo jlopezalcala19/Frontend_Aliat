@@ -1,0 +1,54 @@
+i.fa-solid.fa-plus {
+    width: 30px;
+    background: #095119;
+    color: white;
+    height: 30px;
+    font-size: 30px;
+    position: absolute;
+    right: 14px;
+    float: right;
+    top: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
+}
+
+.table-dark {
+    color: #fff;
+    background-color: #828f7c;
+}
+
+thead {
+    background: #095119;
+    color: blanchedalmond;
+}
+
+button.btn.btn-primary.mybtn {
+    color: #fff;
+    background-color: #095119;
+    border-color: #ffebcdb3;
+    font-size: 13px;
+    width: 110px;
+    height: 33px;
+}
+
+button.btn.btn-primary.mybtn:hover {
+    color: #f5f0f0;
+    background-color: #f8ab64;
+    border-color: #f8ab64;
+}
+
+
+img.imagenesmini {
+    width: 65px;
+    height: 62px;
+    border-radius: 50%;
+}

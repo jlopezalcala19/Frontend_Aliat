@@ -1,0 +1,81 @@
+.carousel-caption.d-none.d-md-block {
+    background: #3738388a;
+    border-radius: 14px;
+}
+
+img.d-block.w-100 {
+    height: 650px;
+}
+
+div#textseguridad {
+    text-align: justify;
+    font-size: 19px;
+}
+
+h2 {
+    text-align: center;
+    font-family: system-ui;
+    color: royalblue;
+}
+
+.container {
+    margin-top: 14px;
+}
+
+
+.item {
+    border: solid 1px;
+    height: 300px;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    padding-bottom: 5px;
+    margin-top: 11px
+}
+
+.card-body {
+    height: 136px;
+    padding: 0px;
+}
+
+.card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 0.25rem;
+        border: solid 1px;
+        color: #cecfd1;
+        box-shadow: 3px 1px 12px #a2a2a2;
+}
+
+img.card-img-top {
+    height: 164px;
+}
+
+h5.card-title {
+    color: black;
+}
+
+p.card-text {
+    color: black;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-right: 6px;
+    height: 30px;
+}
+
+button.btncotizar {
+    background: #095119;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
+    color: azure;
+    margin-top: 10px;
+}

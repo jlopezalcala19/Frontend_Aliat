@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Mabrybold';
+    src: url('./assets/fonts/MabryProBold.otf');
+}
+
+@font-face {
+    font-family: 'Mabry';
+    src: url('./assets/fonts/MabryPro.otf');
+}
+
+@font-face {
+    font-family: 'Mabrymedium';
+    src: url('./assets/fonts/MabryProMedium.otf');
+}
+
+.ventana {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: calc(100% - 150px);
+    height: calc(100% - 50px);
+}
+
+.titulo {
+    height: 50px;
+    background: blanchedalmond;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Font Awesome 6 Free';
+    padding: 7px;
+    color: #095119;
+}

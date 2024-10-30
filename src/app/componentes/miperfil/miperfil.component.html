@@ -1,0 +1,60 @@
+<app-menusuperior></app-menusuperior>
+<app-menulateral></app-menulateral>
+<div class="ventana">
+    <div class="titulo">Mi Perfil</div>
+
+    <div class="formglobal">
+        <div class="formperfil">
+            <div class="form-group">
+              <label class="lblperfil" for="email">Email</label>
+              <input type="text" class="form-control" id="email" [(ngModel)]="email">
+            </div>
+    
+            <div class="form-group">
+                <label class="lblperfil" for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" [(ngModel)]="nombre">
+            </div>
+    
+            <div class="form-group">
+                <label class="lblperfil" for="apellido">Apellido</label>
+                <input type="text" class="form-control" id="apellido" [(ngModel)]="apellido">
+            </div>
+    
+            <div class="form-group">
+                <label class="lblperfil" for="telefono">Telefono</label>
+                <input type="text" class="form-control" id="telefono" [(ngModel)]="telefono">
+            </div>
+    
+            <div class="form-group">
+                <label class="lblperfil" for="direccion">Dirección</label>
+                <input type="text" class="form-control" id="direccion" [(ngModel)]="direccion">
+            </div>
+    
+           
+            <button type="submit" class="btnactualizar" (click)="actualizar()">Actualizar</button>
+          </div>
+    
+    <!-- *********************************************FORMULARIO CAMBIAR PASSWORD*********************************************************** -->
+          <div class="formpassword">
+                  
+            <div class="form-group">
+                <label class="lblperfil" for="password">Contraseña</label>
+                <input type="password" class="form-control" id="password" [(ngModel)]="password">
+            </div>
+    
+            <div class="form-group">
+                <label class="lblperfil" for="nuevopassword">Nueva Contraseña</label>
+                <input type="password" class="form-control" id="nuevopassword" [(ngModel)]="nuevopassword">
+            </div>
+    
+            <button type="submit" class="btncambiarpassword" (click)="actualizarpassword()">Cambiar Contraseña</button>
+          </div>  
+    
+        </div>
+
+    </div>
+
+    
+
+
+

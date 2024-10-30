@@ -1,0 +1,52 @@
+<app-headerclientelog></app-headerclientelog>
+
+<div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" [attr.data-slide-to]="i" class="" *ngFor="let item of datosc; let i = index" [ngClass]="i==0? 'active':''"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item" *ngFor="let item of datosc; let i = index" [ngClass]="i==0? 'active':''">
+        <img src="{{item.imagen}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>{{item.titulo}}</h5>
+          <p>{{item.descripcion}}</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+        <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"> </span>
+      <span class="sr-only">Next</span>
+    </button>
+</div>
+
+<div id="contenedortext" class="container">
+  <h1>¡Porque la seguridad es primero!</h1>
+  <div id="textseguridad"> La seguridad es un tema muy importante y combinados con los avances tecnológicos, se han implementado distintas medidas para mejorar los sistemas de seguridad. Es por esto que, la seguridad electrónica es indispensable desde una empresa o negocio pequeño hasta una transnacional.
+      La seguridad electrónica, es la implementación de la tecnología a la rama de seguridad. Se usan dispositivos tecnologicosque como cumplen tamnién como métodos disuasorios y otros como alarmas al momento de presentarse el hecho.
+  </div>
+</div>
+
+<div id="contenedorbody" class="container">
+<h2>Productos destacados</h2>
+  <div class="row">
+
+      <div class="item col-sm-6 col-md-4 col-lg-3" *ngFor = "let item of datos">
+        <div class="card">
+          <img src="{{item.imagen}}" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{item.nombre}}</h5>
+            <p class="card-text">{{item.descripcion}}</p>
+            <a href="https://wa.me/5211234567890?" class="btn btn-primary" target="_blank">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+     </div>
+  </div>
+<app-footer></app-footer>

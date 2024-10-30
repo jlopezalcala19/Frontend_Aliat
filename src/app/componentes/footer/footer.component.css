@@ -1,0 +1,67 @@
+div#contendorfooter {
+    margin-top: 50px;
+}
+
+.titulofooter {
+    color: #100f0f;
+    margin-bottom: 1px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+div#rowfooter {
+    background: #8b8b8b;
+}
+
+.col-12.col-sm-6.col-md-3 {
+    height: 213px;
+    text-align: center;
+}
+
+small#emailHelp {
+    color: white !important;
+}
+
+div#quienesosmosfooter {
+    text-align: justify;
+    color: white;
+}
+
+.horario {
+    color: white;
+    text-align: justify;
+}
+
+.enlaces {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    font-size: 13px;
+    height: 31px;
+    width: 119px;
+    border-radius: 6px;
+    margin-left: calc(50% - 70px);
+}
+
+a#aleermas {
+    color: darkslategrey;
+    font-style: italic;
+}
+
+div#leermas {
+    text-align: end;
+}
+
+a.aenlaces {
+    color: white;
+    font-style: italic;
+}

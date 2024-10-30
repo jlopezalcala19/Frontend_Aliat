@@ -1,0 +1,28 @@
+<div class="menulateral">
+    <div class="userlog">
+        <img src="assets/avatar-user.png">
+        <div class="clasenombre">{{nombrecompleto}}</div>
+        <div class="claserol">
+            <div *ngIf="rol=='0'">Cargando...</div>
+            <div *ngIf="rol=='1'">Cliente</div>
+            <div *ngIf="rol=='2'">Administrador</div>           
+        </div>
+    </div>
+ 
+    <div class="item">
+        <div class="item_label" routerLink ="/homeclientelog">Home</div>
+    </div>
+
+    <div class="item">
+        <div class="item_label" routerLink ="/dashboardclientes">Dashboard</div>
+    </div>
+
+    <div class="item">
+        <div class="item_label" routerLink ="/perfilcliente">Mi Información</div>
+    </div>
+   
+    <div class="item">
+        <div class="item_label" (click)="logout()">Cerrar Sesión</div>
+    </div>
+</div>
+

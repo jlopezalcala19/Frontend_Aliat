@@ -1,0 +1,57 @@
+<app-header></app-header>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<div id="mismensajes">
+
+</div>
+<div class="contenedor-principal">
+  <div class="container-form register">
+    <div class="caja-izquierda">
+      <div class="info-iniciar">
+          <h2>¿Haces parte de nuestro equipo?</h2>
+          <p>Inicia Sesión con tus datos</p>
+          <input type="button" value="Iniciar Sesión" id="sign-in" (click)="tologin()">
+      </div>
+    </div>
+    <div class="caja-derecha">
+      <div class="form-register">
+        <h2>Ingresa con tus Redes</h2>
+        <div class="icons">
+          <i class='bx bxl-google'></i>
+          <i class='bx bxl-linkedin' ></i>
+          <i class='bx bxl-facebook' ></i>
+          <i class='bx bxl-instagram-alt' ></i>
+        </div>
+        <p>O llena los datos para registrarte</p>
+        <div>
+          <div class="input-form-register">
+            <i class='bx bx-envelope'></i>
+            <input class="input-register" type="text" id="email-register" placeholder="Correo Electrónico" [(ngModel)]="email">
+          </div>
+          <div class="input-form-register">
+            <i class='bx bx-user' ></i>
+            <input class="input-register" type="text" id="nombre-register" placeholder="Nombre" [(ngModel)]="nombre">
+          </div>
+          <div class="input-form-register">
+            <i class='bx bxs-user-detail' ></i>
+            <input class="input-register" type="text" id="apellido-register" placeholder="Apellido" [(ngModel)]="apellido">
+          </div>
+          <div class="input-form-register">
+            <i class='bx bxs-map'></i>
+            <input class="input-register" type="text" id="direccion-register" placeholder="Dirección" [(ngModel)]="direccion">
+          </div>
+          <div class="input-form-register">
+            <i class='bx bx-phone-call' ></i>
+            <input class="input-register" type="number" id="telefono-register" placeholder="Telefono" [(ngModel)]="telefono">
+          </div>
+          <div class="input-form-register">
+            <i class='bx bx-lock-alt' ></i>
+            <input class="input-register" type="password" id="password-register" placeholder="Contraseña" [(ngModel)]="password">
+          </div>
+          <input class="btncrud" id="btnregistrar" type="submit" value="Registrarse" (click)="registrar()">
+          <input class="btncrud" id="btnnuevo" type="submit" value="Nuevo" (click)="nuevo()">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<app-footer></app-footer>

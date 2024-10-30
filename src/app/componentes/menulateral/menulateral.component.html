@@ -1,0 +1,32 @@
+<div class="menulateral">
+    <div class="userlog">
+        <img src="assets/avatar-user.png">
+        <div class="clasenombre">{{nombrecompleto}}</div>
+        <div class="claserol">
+            <div *ngIf="rol=='0'">Cargando...</div>
+            <div *ngIf="rol=='1'">Cliente</div>
+            <div *ngIf="rol=='2'">Administrador</div>           
+        </div>
+    </div>
+    <div class="item">
+        <div class="item_label" routerLink ="/dashboard">Dashboard</div>
+    </div>
+    <div class="item">
+        <div class="item_label" routerLink ="/miperfil">Mi Perfil</div>
+    </div>
+    <div class="item">
+        <div class="item_label" routerLink ="/usuarios">Usuarios</div>
+    </div>
+    <div class="item">
+        <div class="item_label" routerLink ="/productos">Productos</div>
+    </div>
+    <div class="item">
+        <div class="item_label" routerLink ="/categorias">Categorías</div>
+    </div>
+    <div class="item">
+        <div class="item_label" routerLink ="/carousel">Carousel</div>
+    </div>
+    <div class="item">
+        <div class="item_label" (click)="logout()">Cerrar Sesión</div>
+    </div>
+</div>

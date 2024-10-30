@@ -1,0 +1,100 @@
+.formglobal {
+    display: flex;
+    width: 1080px;
+    margin-left: calc(50% - 540px);
+}
+
+.formperfil {
+    border: solid 1px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    height: 517px;
+    margin-left: 25px;
+}
+
+label.lblperfil {
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.form-group {
+    margin-top: 17px;
+    margin-bottom: 1rem;
+}
+
+button.btnactualizar {
+    height: 41px;
+    width: 100px;
+    border-radius: 8px;
+    background: #095119;
+    color: aliceblue;
+    border: none;
+    margin-left: calc(50% - 50px);
+    margin-top: 25px;
+}
+
+.formpassword {
+    border: solid 1px;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+button.btncambiarpassword {
+    height: 41px;
+    width: 200px;
+    border-radius: 8px;
+    background: #095119;
+    color: aliceblue;
+    border: none;
+    margin-left: calc(50% - 100px);
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1250px){
+    .formglobal {
+        width: 700px;
+        flex-direction: column;
+        margin-left: calc(50% - 250px);
+    }
+
+    .formperfil {
+        width: 500px;
+        margin-left: calc(50% - 250px);
+    }
+
+    .formpassword {
+        width: 500px;
+        margin-left: calc(50% - 250px);
+    }
+   
+}
+
+@media screen and (max-width:890px){
+    .formglobal {
+        width: 500px;
+        flex-direction: column;
+        margin-left: calc(50% - 250px);
+    }
+
+    .formperfil {
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+
+    .formpassword {
+        width:400px;
+        margin-left: calc(50% - 200px);
+    }
+   
+}
