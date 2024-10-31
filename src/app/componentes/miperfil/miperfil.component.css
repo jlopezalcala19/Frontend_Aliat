@@ -31,7 +31,7 @@ button.btnactualizar {
     height: 41px;
     width: 100px;
     border-radius: 8px;
-    background: #095119;
+    background: #256873;
     color: aliceblue;
     border: none;
     margin-left: calc(50% - 50px);
@@ -54,7 +54,7 @@ button.btncambiarpassword {
     height: 41px;
     width: 200px;
     border-radius: 8px;
-    background: #095119;
+    background: #256873;
     color: aliceblue;
     border: none;
     margin-left: calc(50% - 100px);

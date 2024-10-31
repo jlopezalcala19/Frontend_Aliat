@@ -1,18 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face {
-    font-family: 'Mabrybold';
-    src: url('./assets/fonts/MabryProBold.otf');
-}
-
-@font-face {
-    font-family: 'Mabry';
-    src: url('./assets/fonts/MabryPro.otf');
-}
-
-@font-face {
-    font-family: 'Mabrymedium';
-    src: url('./assets/fonts/MabryProMedium.otf');
-}
 
 .ventana {
     position: absolute;
@@ -29,5 +15,20 @@
     font-size: 25px;
     font-family: 'Font Awesome 6 Free';
     padding: 7px;
-    color: #095119;
+    color: #256873;
+}
+
+@font-face {
+    font-family: 'Mabry';
+    src: url('./assets/fonts/MabryPro.otf');
+}
+
+@font-face {
+    font-family: 'Mabrymedium';
+    src: url('./assets/fonts/MabryProMedium.otf');
+}
+
+@font-face {
+    font-family: 'Mabrybold';
+    src: url('./assets/fonts/MabryProBold.otf');
 }

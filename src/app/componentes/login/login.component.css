@@ -22,7 +22,7 @@
     text-align: center;
     display: flex;
     align-items: center;
-    background: #095119;
+    background: #256873;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -44,7 +44,7 @@
 }
 
 .info-iniciar input {
-    background: #095119;
+    background: #256873;
 }
 
 .info-iniciar input {
@@ -61,7 +61,7 @@
 .info-iniciar input:hover {
     background: rgb(248, 246, 246);
     border: none;
-    color: #095119;
+    color: #256873;
 }
 
 .caja-derecha {
@@ -80,12 +80,12 @@
 }
 
 .form-register h2 {
-    color: #095119;
+    color: #256873;
     font-size: 2.5rem;
 }
 
 .form-register p {
-    color: #095119;
+    color: #256873;
 }
 
 .icons {
@@ -95,7 +95,7 @@
 .icons i{
     border-radius: 50%;
     padding: 10px;
-    color: #095119;
+    color: #256873;
     transition: background-color 0.3s ease;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
@@ -103,7 +103,7 @@
 }
 
 .icons i:hover{
-    background-color:#095119;
+    background-color:#256873;
     color:white;
 }
 
@@ -127,7 +127,7 @@
 
 
 .btncrud {
-    background: #095119;
+    background: #256873;
     color: white;
     border-radius: 20px;
     border: none;
@@ -140,7 +140,7 @@
 
 .btncrud:hover {
     background: #949695;
-    color: #095119;
+    color: #256873;
     border-radius: 20px;
     border: none;
     padding: 10px 15px;
@@ -149,7 +149,7 @@
 
 
 #btniniciarsesion{
-    background: #095119;
+    background: #256873;
     color: white;
     border-radius: 20px;
     border: none;
@@ -162,7 +162,7 @@
 
 #btniniciarsesion:hover{
     background: #949695;
-    color: #095119;
+    color: #256873;
     border-radius: 20px;
     border: none;
     padding: 10px 15px;
@@ -178,7 +178,7 @@
     width: 280px;
     margin-left: calc(50% - 140px);
     box-shadow: 0 2px 5px rgba(0,0,0, .3);
-    color: #095119;
+    color: #256873;
 }
 
 input#buscar {
@@ -216,14 +216,14 @@ div#contenedor-tabla {
 }
 
 thead.tablet {
-    background: #095119;
+    background: #256873;
     color: white;
     font-family: monospace;
 }
 
 .btn-eliminar {
     color: white;
-    background-color: #095119;
+    background-color: #256873;
     padding-top: 2px;
     font-family: monospace;
     border-color: #f1edf0;
@@ -263,10 +263,10 @@ thead.tablet {
 
     .btn-eliminar {
         color: white;
-        background-color: #095119;
+        background-color: #256873;
         padding-top: 2px;
         font-family: monospace;
-        border-color: #024705;
+        border-color: #256873;
         width: 60px;
         font-size: 10px;
         margin-left: 0px;
@@ -308,10 +308,10 @@ thead.tablet {
     
     .btn-eliminar {
         color: white;
-        background-color: #095119;
+        background-color: #256873;
         padding-top: 2px;
         font-family: monospace;
-        border-color: #024705;
+        border-color: #256873;
         width: 60px;
         font-size: 10px;
         margin-left: 0px;
@@ -348,10 +348,10 @@ thead.tablet {
     
     .btn-eliminar {
         color: white;
-        background-color: #095119;
+        background-color: #256873;
         padding-top: 2px;
         font-family: monospace;
-        border-color: #024705;
+        border-color: #256873;
         width: 60px;
         font-size: 10px;
         margin-left: 0px;
@@ -371,7 +371,7 @@ thead.tablet {
     }
 
     thead.tablet {
-    background: #095119;
+    background: #256873;
     color: white;
     font-family: monospace;
     font-size: 10px;
@@ -395,7 +395,7 @@ thead.tablet {
     .icons i{
         border-radius: 50%;
         padding: 10px;
-        color: #095119;
+        color: #256873;
         transition: background-color 0.3s ease;
         cursor: pointer;
         box-shadow: 0 2px 5px rgba(0,0,0,0.3);
@@ -408,10 +408,10 @@ thead.tablet {
 
     .btn-eliminar {
         color: white;
-        background-color: #095119;
+        background-color: #256873;
         padding-top: 1px;
         font-family: monospace;
-        border-color: #024705;
+        border-color: #256873;
         width: 50px;
         font-size: 8px;
         margin-left: 0px;

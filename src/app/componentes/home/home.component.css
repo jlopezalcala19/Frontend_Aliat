@@ -4,7 +4,7 @@
 }
 
 img.d-block.w-100 {
-    height: 500px;
+    height: 685px;
     margin-top: 10px;
 }
 
@@ -24,7 +24,7 @@ h1{
 h2 {
     text-align: center;
     font-family: system-ui;
-    color: royalblue;
+    color: #E96D61;
 }
 
 .container {
@@ -39,11 +39,12 @@ h2 {
     padding-top: 4px;
     color: white;
     padding-bottom: 5px;
-    margin-top: 11px
+    margin-top: 11px;
+    margin-bottom: 150px;
 }
 
 .card-body {
-    height: 136px;
+    height: 0px;
     padding: 0px;
 }
 
@@ -64,11 +65,13 @@ h2 {
 }
 
 img.card-img-top {
-    height: 164px;
+    height: 400px;
 }
 
 h5.card-title {
     color: black;
+    background-color: red;
+    height: 0px;
 }
 
 p.card-text {
@@ -76,12 +79,13 @@ p.card-text {
     font-size: 12px;
     padding-left: 3px;
     padding-right: 6px;
-    height: 30px;
+    height: 0px;
     font-family: 'Mabry';
+    background-color: aqua;
 }
 
 button.btncotizar {
-    background: #095119;
+    background: #256873;
     border: none;
     height: 35px;
     width: 100px;

@@ -30,21 +30,25 @@
 
 <div id="contenedortext" class="container">
     <h1>¡TU EMPRESA DE SERVICIOS PÚBLICOS!</h1>
-    <div id="textseguridad"> La seguridad es un tema muy importante y combinados con los avances tecnológicos, se han implementado distintas medidas para mejorar los sistemas de seguridad. Es por esto que, la seguridad electrónica es indispensable desde una empresa o negocio pequeño hasta una transnacional.
-        La seguridad electrónica, es la implementación de la tecnología a la rama de seguridad. Se usan dispositivos tecnologicosque como cumplen tamnién como métodos disuasorios y otros como alarmas al momento de presentarse el hecho.
+    <div id="textseguridad"> Al igual que tú, también deseamos servicios públicos
+      más eficientes.Y por eso los creamos.
+      Con un compromiso firme con el futuro, en Aliat trabajamos para que la Ciudad Soñada sea un
+      modelo de eficiencia, innovación y cuidado del
+      entorno. Sabemos que el sector de serviciospúblicos tiene un impacto directo en el ecosistema,
+      y por eso, hemos asumido el reto de operar bajo principios de economía circular.
     </div>
 </div>
 
 <div id="contenedorbody" class="container">
-<h2>Productos destacados</h2>
+<h2>Nuestros Servicios</h2>
     <div class="row">
 
-        <div class="item col-sm-6 col-md-4 col-lg-3" *ngFor = "let item of datos">
+        <div class="item col-sm-12 col-md-12 col-lg-12" *ngFor = "let item of datos">
           <div class="card">
             <img src="{{item.imagen}}" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
-              <h5 class="card-title">{{item.nombre}}</h5>
-              <p class="card-text">{{item.descripcion}}</p>
+              <!-- <h5 class="card-title">{{item.nombre}}</h5> 
+              <p class="card-text">{{item.descripcion}}</p>  -->
               <!-- <button type="button" class="btncotizar">Ver detalles</button> -->
             </div>
           </div>

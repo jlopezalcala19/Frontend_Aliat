@@ -1,6 +1,6 @@
 i.fa-solid.fa-plus {
     width: 30px;
-    background: #095119;
+    background: #256873;
     color: white;
     height: 30px;
     font-size: 30px;
@@ -27,13 +27,13 @@ tbody {
 }
 
 thead {
-    background: #095119;
+    background: #256873;
     color: blanchedalmond;
 }
 
 button.btn.btn-primary.mybtn {
     color: #fff;
-    background-color: #095119;
+    background-color: #256873;
     border-color: #ffebcdb3;
     font-size: 13px;
     width: 130px;
