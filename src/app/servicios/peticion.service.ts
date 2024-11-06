@@ -8,7 +8,7 @@ export class PeticionService {
 
   constructor(private http:HttpClient) { }
 
-  urlLocal:string ="https://backend-aliat.onrender.com"//"http://localhost:3000"
+  urlLocal:string ="https://backend-aliat.onrender.com/api"//"http://localhost:3000"
 
   Post(url:string, data:{}){
     let promise = new Promise((resolve,reject)=>{
