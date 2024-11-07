@@ -31,6 +31,7 @@ export class MenulateralComponent implements OnInit{
      if(res.rol==undefined){
         this.actrouter.navigate(["/login"])
         console.log("El rol es: "+ res.rol)
+        console.log(res)
      }
      
       this.nombrecompleto=res.nombrecompleto
