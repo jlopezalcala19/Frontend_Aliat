@@ -41,7 +41,7 @@ export class LoginComponent {
           this.actrouter.navigate(["/dashboardclientes"])
         }else{
           this.msg.load("success", res.mensaje)
-          //console.log(res.datos)
+          console.log(res.datos)
           this.actrouter.navigate(["/dashboard"])
         }
       }
