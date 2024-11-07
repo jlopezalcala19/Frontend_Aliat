@@ -30,7 +30,7 @@ export class MenulateralComponent implements OnInit{
     this.peticion.Post(post.host+post.path, post.payload).then((res:any)=>{
      if(res.rol==undefined){
         this.actrouter.navigate(["/login"])
-        console.log(res.rol)
+        console.log("El rol es: "+ res.rol)
      }
      
       this.nombrecompleto=res.nombrecompleto
